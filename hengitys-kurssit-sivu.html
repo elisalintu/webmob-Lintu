@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--Välilehden otsikko-->
+    <title>Huokun Oy</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+
+    <!--Bootstrapin linkitykset-->
+    <link rel="stylesheet" href="C:\Users\elisa\OneDrive\Työpöytä\Kouluhommat\Web-ja mobiili\Projekti osa 3 - toteutus\boot\css\bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="C:\Users\elisa\OneDrive\Työpöytä\Kouluhommat\Web-ja mobiili\Projekti osa 3 - toteutus\boot\js\bootstrap.bundle.min.js"></script>
+
+    <!--Oma tyyli-->
+    <link rel="stylesheet" href="tyyli.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+
+    <!--Navigointipalkki-->
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <a class="navbar-brand" href="#"><img src="paita.png" width="30" height="30" alt="logo"></a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav bg-custom-media "> 
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Projekti osa 3 - html.html" type="button">Etusivu <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="tietoameista-sivu.html" type="button">Tietoa meistä</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Palvelut </a>
+                        <ul class="dropdown-menu bg-custom" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-submenu bg-custom"><a class="dropdown-item dropdown-toggle" href="#" type="button">Hengitys</a>
+                                <ul class="dropdown-menu bg-custom">
+                                    <li><a class="dropdown-item bg-custom" href="hengitys-kurssit-sivu.html" type="button">Kurssit</a></li>
+                                    <li><a class="dropdown-item bg-custom" href="hengitys-toiminnallinenhengitys-sivu.html" type="button">Toiminnallinen hengitys</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Reiki</a>
+                                <ul class="dropdown-menu bg-custom">
+                                    <li><a class="dropdown-item bg-custom" href="reiki-hoidot-sivu.html" type="button">Reikihoidot</a></li>
+                                    <li><a class="dropdown-item bg-custom" href="reiki-koulutus-sivu.html" type="button">Reikikoulutus</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item bg-custom" href="jooga-sivu.html" type="button" >Jooga</a></li>                            
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                    <a class="nav-link" href="hinnasto-sivu.html">Hinnasto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="yhteystiedot-sivu.html">Yhteystiedot</a>
+                    </li>
+              </ul>
+            </div>
+        </nav>
+
+        <!--SIVUSTON YLÄREUNA-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="jumbotron text-center">
+                        <img src="liian iso.png" alt="Huokun-logo" height="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--SISÄLTÖ-->
+        <div class="container">
+            <div class="row"> 
+                <div class="col-sm-2"> 
+                                     
+                </div>                 
+                <div class="col-sm-8">
+                    
+                    <h5>Huokun-studio tarjoaa erilaisia vaihtoehtoja hengityksen toiminnallistamiseen</h5>
+                    <p>Huokun kurssit ja ohjaukset perustuvat irlantilaiseen Oxygen Advantage -hengitysohjelmaan, 
+                        jonka on perustanut Patrick McKeown. Se on levinnyt ympäri maailmaa, ja ohjaajia 
+                        on kymmenissä eri maissa, Suomessakin muutama kymmen. Kaikki harjoitukset on 
+                        testattu laboratorio-olosuhteissa ja todettu turvallisiksi tehdä. Ainoat, 
+                        kenelle harjoituksia ei suositella ovat raskaana olevat ja vakavasti sairaat. 
+                        Tämä johtuu siitä, ettei ole tutkimustietoa, miten harjoitukset vaikuttavat heihin.</p>
+                        <img id="kuvat" class="text-wrap" src="hengitys-kuva.png" width="30%" height="auto" alt="Heli ja Elisa" > 
+                    <p>Harjoituksista saavat hyötyä kaikki ihmiset - harjoitukset ovat helppoja tehdä. 
+                        Tärkeintä on, että niitä tekee, silloin ne vaikuttavat ja kohottavat perushengitystasoa.
+                        Esimerkiksi urheilijat hyötyvät hengitysharjoituksista paljon. Hapenottokyvyn
+                        kehittäminen ja eri hengitystekniikoiden hyödyntäminen suorituksen aikana 
+                        parantaa myös suorituskykyä sekä suorituksesta palautumista. Aivan erityisesti 
+                        harjoituksista hyötyvät urheilijat, jotka ovat loukkaantuneet. Korkeanpaikan 
+                        harjoituksilla voi ylläpitää maksimaalista hapenottokykyä myös parantumisen aikana.</p>
+                    <p>Kaikissa kursseissa on sama Oxygen Advantagen oppeja seuraava sisältö.
+                        Valitse vain sinulle mieluisin tapa oppia hengityksestä. </p>
+                        <p>Ilmoittautumis- ja yhteydenottolomake löytyy kurssikuvailujen jälkeen.</p>
+                    
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        HUOKUN HENGITYSKURSSI - avoin etäkurssi: 
+                        Huokun hengityskurssi koostuu neljästä eri tapaamisesta, 
+                        jossa opetellaan Oxygen Advantagen ohjelmaan pohjautuvaa 
+                        toiminnallista hengitystä ja korkeanpaikan harjoituksia 
+                        sekä mitataan perushengitystaso.Hengityskurssin aikana käydään 
+                        läpi kaikki perushengitystä parantavat harjoitukset, sekä 
+                        liikkumiseen liittyvät harjoitukset, joista on hyötyä
+                         hapen imeytymisen kannalta. Lisäksi käydään läpi hyvän yöunen 
+                         periaatteita. Harjoituksia jatketaan kotona. Kurssin avulla 
+                         perushengitystaso paranee ohjatusti viikoittain päivyttyvillä 
+                         ohjeilla - hyvinvointi alkaa lisääntyä heti! Kurssin jälkeen 
+                         halukkaat voivat jatkaa kehitystään myös ohjatusti
+                         yksityisohjauksessa -50% hintaan.
+                    </p>
+                    
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        HUOKUN HENGITYSKURSSI - yrityksille: 
+                        Työhyvinvointi on noussut isompien otsikoiden alle 
+                        viime aikoina, ja yrityksillä on halua panostaa 
+                        omien työntekijöidensä hyvinvointiin. Hengityskurssi
+                         on edullinen vaihtoehto antaa työntekijöille 
+                         mahdollisuus kehittää hyvinvointiaan niin yksityis- 
+                         kuin työelämässäänkin. Huokun hengityskurssi koostuu 
+                         neljästä eri tapaamisesta, jossa opetellaan Oxygen
+                         Advantagen ohjelmaan pohjautuvaa toiminnallista hengitystä,
+                       korkeanpaikan harjoituksia sekä mitataan perushengitystaso.
+                       Kurssin aikana käydään läpi kaikki perushengitystä parantavat
+                        harjoitukset, sekä liikkumiseen liittyvät harjoitukset, joista on 
+                        hyötyä hapen imeytymisen kannalta. Lisäksi käydään läpi hyvän yöunen 
+                        periaatteita. Harjoituksia jatketaan kotona. Kurssin avulla perushengitystaso 
+                        paranee ohjatusti viikoittain päivyttyvillä ohjeilla - hyvinvointi 
+                        alkaa lisääntyä heti. Kurssi voidaan pitää työpaikalla tai 
+                         meidän järjestämässä tilassa, sovitaan järjestelyt yhdessä varausta
+                        tehdessä. Kurssi voidaan järjestää 5-20 henkilölle. 
+                      Ota yhteyttä sähköpostitse tai soittamalla! Kurssin jälkeen
+                      halukkaat voivat jatkaa kehitystään myös ohjatusti yksityisohjauksessa -50% hintaan.
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        HUOKUN HENGITYSKURSSI - yksityisille ryhmille: 
+                        Innosta joukkuetovereita, ystäviä tai sukulaisia mukaasi,
+                        ja tilaa omalle porukalle yksityinen kurssi! Huokun 
+                        hengityskurssi koostuu neljästä eri tapaamisesta, 
+                        jossa opetellaan Oxygen Advantagen ohjelmaan pohjautuvaa 
+                        toiminnallista hengitystä, korkeanpaikan harjoituksia
+                         sekä mitataan perushengitystaso. Kurssin aikana käydään 
+                         läpi kaikki perushengitystä parantavat harjoitukset, 
+                         sekä liikkumiseen liittyvät harjoitukset, joista on hyötyä
+                          hapen imeytymisen kannalta. Lisäksi käydään läpi hyvän
+                           yöunen periaatteita. Harjoituksia jatketaan kotona. 
+                           Kurssin avulla perushengitystaso paranee ohjatusti 
+                           viikoittain päivyttyvillä ohjeilla - hyvinvointi 
+                           alkaa lisääntyä heti. Kurssi voidaan järjestää 5-20 
+                           henkilölle. Sijainti, tarjoilut ym sovitaan aina
+                            yhdessä varausta tehdessä, laita kyselyä sähköpostitse 
+                            tai varaa soittamalla! Kurssin jälkeen halukkaat voivat
+                             jatkaa kehitystään myös ohjatusti yksityisohjauksessa -50% hintaan.
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        HENKILÖKOHTAINEN HENGITYSOHJAUS - 
+                        Henkilökohtaisen ohjauksen kautta saat 
+                        yksilöityä, sinun henkilökohtaisen tarpeesi 
+                        kohtaavaa hengitysohjausta. Jo ensimmäisellä kerralla 
+                        saat ohjeet, jotka alkavat nostamaan perushengityksesi tasoa. 
+                        Useamman peräkkäisen tunnin aikana pystyt saamaan lisäohjeita 
+                        ja oppimaan jopa korkeanpaikanharjoituksia, jotka tutkitusti 
+                        nostavat maksimaalista hapenottokykyä. Ohjaus perustuu Oxygen 
+                        Advantagen -hengitysohjelmaan. Yksilöohjausta suositellaan 
+                        etenkin tavoitteellista kehitystä hakeville asiakkaille - 
+                        esimerkiksi urheilijat hyötyvät hapenottokyvyn parantumisesta 
+                        paljon. Urheilujoukkueille suosittelemme yksityiskursseja. 
+                        Huokun hengityskurssin- tai päivän käyneille tunnit -50%
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        HUOKUN HENGITYSPÄIVÄ - 
+                        Huokun hengityspäivä on kurssimuotoinen päivä, 
+                        jossa opetellaan Oxygen Advantagen ohjelmaan 
+                        pohjautuvaa toiminnallista hengitystä, korkeanpaikan 
+                        harjoituksia, sekä mitataan perushengitystaso. 
+                        Päivän aikana käydään läpi kaikki perushengitystä 
+                        parantavat harjoitukset. Ulkoilun yhteydessä 
+                        opetellaan hengittämään niin, että happi oikeasti 
+                        lisääntyy kehossa. Lisäksi käydään läpi hyvän yöunen 
+                        periaatteita. Harjoituksia on tarkoitus jatkaa 
+                        omatoimisesti kotioloissa päivän jälkeen - saat 
+                        avaimet parempaan hengitykseen loppuelämäksi. 
+                        Päivä on rauhoittava, virtaatuova ja rentouttava. 
+                        Päivän jälkeen voit jatkaa kehitystään myös 
+                        ohjatusti yksityisohajuksessa -50% hintaan.
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+            
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+
+        <!--SIVUSTON YLÄREUNA-->
+
+        <form class="text-center border border-light p-5" action="#!">
+
+            <p class="h4 mb-4">Ilmoittautumis- ja yhteydenottolomake</p>
+    
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <div class="corners">
+                            <div class="yhteydenotto">
+                                <p>Täytä pyydetyt tiedot, ja valitse ilmoittautumisen kohde.</p>
+                                <ul>
+                                    <li>
+                                        Hengityskurssille ilmoittautuessa, mainitse viestikentässä mille kurssille haluat ilmoittautua<br>
+                                        (kurssin nimi ja aloituspäivämäärä)
+                                    </li>
+                                    <li>
+                                        Joogaan ilmoittautuessa, mainitse viestikentässä mille joogatunnille ilmoittaudut (tunnin nimi ja päivämäärä)
+                                    </li>
+                                    <li>
+                                        Reikihoitoon ilmoittautuessa, mainitse viestikentässä lyhyesti hoidon tarpeesta, ja voit ehdottaa
+                                        itsellesi sopivia aikoja hoidolle
+                                    </li>
+                                    <li>
+                                        Retriittiin ilmoittautuessa, mainitse viestikentässä mihin retriittiin haluat ilmoittautua<br>
+                                        (retriitin nimi ja aloituspäivämäärä)
+                                    </li>
+                                    <li>
+                                        Yhteydenottopyyntöä laittaessa, mainitse viestikentässä lyhyesti, mitä asia koskee, ja <br>
+                                        mieluisin yhteydenottotapa (soitto, tekstiviesti, sähköposti). Lisääthän puhelinnumeron<br>
+                                        viestikenttään, mikäli valitsit soiton tai tekstiviestin
+                                    </li>
+                                </ul>
+                                    
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                       
+                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nimi">
+    
+                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+    
+                        <label>Aihe</label>
+                        <select class="browser-default custom-select mb-4">
+                            <option value="" disabled>Choose option</option>
+                            <option value="1" selected>Ilmoittautuminen hengityskurssille</option>
+                            <option value="2">Ilmoittautuminen joogatunnille</option>
+                            <option value="3">Ilmoittautuminen reikihoitoon</option>
+                            <option value="4">Imoittautuminen reikikurssille</option>
+                            <option value="4">Imoittautuminen retriittiin</option>
+                            <option value="5">Yhteydenottopyyntö</option>
+                        </select>
+    
+                        <div class="form-group">
+                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+                        </div>
+    
+                        <a class="btn btn-default" style="background-color: rgb(240, 207, 207);"onclick="validateForm();">Lähetä</a>
+    
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+        </form>
+
+        <!--SIVUSTON ALAREUNA-->
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container text-center">
+            <p class="text-muted mb-0 py-2">© Huokun Oy <br> Y-Tunnus 3241193-9</p>
+            <a href="https://www.facebook.com/huokunstudio" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/huokunstudio/" class="fa fa-instagram"></a>
+        </div>"
+      
+        <script>
+            $(function () {
+                $(window).on('scroll', function () {
+                    if ( $(window).scrollTop() > 10 ) {
+                        $('.navbar').addClass('active');
+                    } else {
+                        $('.navbar').removeClass('active');
+                    }
+                });
+            });
+    
+        </script>
+</body>
+</html>

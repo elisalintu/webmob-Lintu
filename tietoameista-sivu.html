@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--Välilehden otsikko-->
+    <title>Huokun Oy</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+
+    <!--Bootstrapin linkitykset-->
+    <link rel="stylesheet" href="C:\Users\elisa\OneDrive\Työpöytä\Kouluhommat\Web-ja mobiili\Projekti osa 3 - toteutus\boot\css\bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="C:\Users\elisa\OneDrive\Työpöytä\Kouluhommat\Web-ja mobiili\Projekti osa 3 - toteutus\boot\js\bootstrap.bundle.min.js"></script>
+
+    <!--Oma tyyli-->
+    <link rel="stylesheet" href="tyyli.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+
+    <!--Navigointipalkki-->
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <a class="navbar-brand" href="#"><img src="paita.png" width="30" height="30" alt="logo"></a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav bg-custom-media "> 
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Projekti osa 3 - html.html" type="button">Etusivu <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="tietoameista-sivu.html" type="button">Tietoa meistä</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Palvelut </a>
+                        <ul class="dropdown-menu bg-custom" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-submenu bg-custom"><a class="dropdown-item dropdown-toggle" href="#" type="button">Hengitys</a>
+                                <ul class="dropdown-menu bg-custom">
+                                    <li><a class="dropdown-item bg-custom" href="hengitys-kurssit-sivu.html" type="button">Kurssit</a></li>
+                                    <li><a class="dropdown-item bg-custom" href="hengitys-toiminnallinenhengitys-sivu.html" type="button">Toiminnallinen hengitys</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Reiki</a>
+                                <ul class="dropdown-menu bg-custom">
+                                    <li><a class="dropdown-item bg-custom" href="reiki-hoidot-sivu.html" type="button">Reikihoidot</a></li>
+                                    <li><a class="dropdown-item bg-custom" href="reiki-koulutus-sivu.html" type="button">Reikikoulutus</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item bg-custom" href="jooga-sivu.html" type="button" >Jooga</a></li>                           
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                    <a class="nav-link" href="hinnasto-sivu.html">Hinnasto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="yhteystiedot-sivu.html">Yhteystiedot</a>
+                    </li>
+              </ul>
+            </div>
+        </nav>
+
+        <!--SIVUSTON YLÄREUNA-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="jumbotron text-center">
+                        <img src="liian iso.png" alt="Huokun-logo" height="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--SISÄLTÖ-->
+        <div class="container">
+            <div class="row"> 
+                <div class="col-sm-4">
+                    <img id="kuvat" class="img-fluid" src="e-ja-a.jpg" alt="Heli ja Elisa" > 
+                </div>                 
+                <div class="col-sm-8">
+                    <h3 class="tietoameista-1">Huokun on hellyydellä hyvinvointia jakava studio</h3>
+                            <p>Huokun nimi tulee karjalan murteen "hengitän"-sanasta. 
+                                Slogan ‘elän ja hengitän’ kääntyy karjalaksi: huokun - siis elos olen. 
+                                Halusimme ottaa juuremme mukaan tähän yritykseen. </p>
+                    <p>Uupuminen ajoi minut tähän tilanteeseen, 
+                            että olen perustanut oman yrityksen. Onneksi sain 
+                            käytännön avukseni rakkaan tyttäreni, Elisan. 
+                            Koko muu perhe, lähisuku ja ystävät ovat apuna ja 
+                            tukena, jokainen omalla tavallaan.</p>
+                    <p>Kolmisen vuotta sitten askel alkoi painaa. 
+                            Työ opettajana ei tuottanut iloa eikä inspiraatiota. 
+                            Ja samaan syssyyn 'ihanat' vaihdevuodet! Jaksaminen vain loppui. 
+                            Sairaslomalla olin pari kuukautta, ja jatkoin tunnollisena ihmisenä 
+                            sinnittelyä töissä, koska ihmisen pitää tehdä töitä. 
+                            Sain kuitenkin kuntouttavana tukena aloittaa seuraavana syksynä 
+                            tekemään vajaata työviikkoa. Ensimmäiset puoli vuotta koin huonoa omaatuntoa- 
+                            saako tästä olla iloinen ja nauttia? Opin nauttimaan. Opin rakastamaan maanantaipäiviä, 
+                            jolloin ei ollut opetusta. Ja sain jaksamista tehdä muut työpäivät. </p>
+                </div>
+            </div>
+        </div>
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container text-left">
+            <div class="row">         
+                <div class="col-sm-12">
+                    <h5 class="tietoameista-2">"Minulle on tarjottu monenlaisia lääkkeitä avuksi uupumuksesta toipumiseen."</h5>
+                    <p>Kokeilin ja lopetin. Niin teki kuulemma Mammanikin, eli äidin äiti. 
+                        Asenne siis verenperintöä! Psykoterapiassa olin vuoden ajan mukana.
+                         Sen kautta opin kuulemaan sisäistä ääntäni, jonka olin tuupannut piiloon 
+                         perimmäiseen nurkkaan. Kopistelin pölyt siitä, ja sanoin, 
+                         että on vain yksi suunta, ja se on ylöspäin!  </p>    
+                    <h5 class="tietoameista-2">"Minulla on vielä annettavaa tälle maailmalle!"</h5>
+                    <p> Askeleet ovat olleet pieniä ja varovaisia. Metsässä ulkoilu on ollut, 
+                        ja on voimaannuttavaa. Sinne menen välillä yksin, välillä kaksin ja 
+                        joskus meitä on enemmänkin liikenteessä. Korvat lepäävät tuulen huminassa, 
+                        ja mieli palautuu ja jaksaa taas ottaa haasteita vastaan. 
+                        Joogan kautta olen myös oppinut rauhoittamaan kehoa ja mieltä. 
+                        Haluan tulevaisuudessa ohjata rauhoittavaa, ihanaa, maatapitkin menevää yin-joogaa. 
+                        Se toteutuu virallisesti keväällä 2022!
+                        Hyvinvointini edistymispolulla tapahtui selkeä käänne kesällä 2021. 
+                        Toukokuun puolella osallistuin perushengityskurssille. Huomasin, miten 
+                        yksinkertaisilla asioilla sain uneni paranemaan ja sitä kautta päivällä 
+                        oloni virkeämmäksi. Ilman lääkkeitä! </p>   
+                </div>
+            </div>
+        </div>
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container">
+            <div class="row">         
+                <div class="col-sm-4">
+                    <img id="kuvat" class="img-fluid" src="eka-kuva.JPG" alt="Heli ja Elisa" >
+                </div>         
+                <div class="col-sm-8">
+                    <h5>Voiko olla näin yksinkertaista?</h5>
+                    <p>Voi! Innostuin tästä, ja kävin heti perään heinäkuussa hengitysohjaaja-kurssin. 
+                        Kurssiviikonlopun jälkeen oloni kirkastui aivan silmissä. 
+                        Hapenottokykyni parani kohisten ja olin ihmeissäni! Tätä tietoa on jaettava muillekin!
+                        Oxygen Advantagen hengitysohjaajia on ympäri maailmaa satoja ja meillä Suomessakin muutama kymmen. 
+                        Monilla on eri ammatti pääammattina, ja he eivät mainosta itseään sen erityisemmin. 
+                        Minä haluan nyt oman työni ohella jakaa tätä tietämystä kaikille halukkaille.
+                        Hengitysohjeita tulen jakamaan myös retriiteissä. Retriitit ovat ihania, 
+                        omalle itselle ja rauhoittumiselle pyhitettyjä päiviä ja viikonloppuja. 
+                        Niitä tullaan järjestämään niin kaupungissa kuin maaseudulla. 
+                        Hiljentyä voi missä vain! Saman henkiset ihmiset luovat retriitissä turvallisen 
+                        ja rakkaudellisen ilmapiirin. Seuraa ilmoitteluamme tällä sivustolla, 
+                        facebookissa ja instagramissa, ja anna itsellesi ihastuttava matka maailman tärkeimmän 
+                        ihmisen eli sinun itsesi luo!
+                    </p>   
+                </div>
+            </div> 
+        </div>
+        <div class="container">
+            <div class="row">                 
+                <div class="col-sm-12">
+                    <p>Minä olen tehnyt pitkän matkan omaan itseeni, 
+                        onhan noita elinvuosia jo kertynyt! Vertauskuvallisesti 
+                        ei pelkästään maailman ympäri vaan ihan koko universumin 
+                        ympäri! Sitä on reiki. Neljän vuoden ajan olen opiskellut
+                         reikiä, ja nyt olen valmistunut reiki-mestariksi. 
+                         Mikä maailma, tai oikeastaan mikä avaruus, ajatuksiin on 
+                         auennut reikin kautta! Huh! 
+                    </p>  
+                    <h5>Kun haluat aloittaa oman matkasi, tai tarvitset tukea tai hoitoa
+                        johonkin asiaan, niin tule hoidettavaksi!
+                    </h5>
+                    <p>Hengitys on hyvinvointimme perusta <br>
+                        Reiki hoitaa sielua ja kehoa sieltä mistä tarvitsee <br>
+                        Jooga rentouttaa niin kehoa kuin mieltäkin<br>
+                        Huokun siis hyvää oloa! <br>
+                    </p><br>
+                    <h6>Heli Nupponen <br>
+                    -Oxygen Advantage -hengitysohjaaja, reikimestari, TM
+                    </h6>
+                </div>
+            </div> 
+        </div>
+            
+        <!--SISVUSTON ALAREUNA-->
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        
+        <div class="container text-center">
+            <p class="text-muted mb-0 py-2">© Huokun Oy <br> Y-Tunnus 3241193-9</p>
+            <a href="https://www.facebook.com/huokunstudio" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/huokunstudio/" class="fa fa-instagram"></a>
+        </div>"
+      
+        <script>
+            $(function () {
+                $(window).on('scroll', function () {
+                    if ( $(window).scrollTop() > 10 ) {
+                        $('.navbar').addClass('active');
+                    } else {
+                        $('.navbar').removeClass('active');
+                    }
+                });
+            });
+    
+        </script>
+</body>
+</html>

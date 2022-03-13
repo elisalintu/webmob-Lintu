@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--Välilehden otsikko-->
+    <title>Huokun Oy</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+
+    <!--Bootstrapin linkitykset-->
+    <link rel="stylesheet" href="C:\Users\elisa\OneDrive\Työpöytä\Kouluhommat\Web-ja mobiili\Projekti osa 3 - toteutus\boot\css\bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="C:\Users\elisa\OneDrive\Työpöytä\Kouluhommat\Web-ja mobiili\Projekti osa 3 - toteutus\boot\js\bootstrap.bundle.min.js"></script>
+
+    <!--Oma tyyli-->
+    <link rel="stylesheet" href="tyyli.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+
+    <!--Navigointipalkki-->
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <a class="navbar-brand" href="#"><img src="paita.png" width="30" height="30" alt="logo"></a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav bg-custom-media "> 
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Projekti osa 3 - html.html" type="button">Etusivu <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="tietoameista-sivu.html" type="button">Tietoa meistä</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Palvelut </a>
+                        <ul class="dropdown-menu bg-custom" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-submenu bg-custom"><a class="dropdown-item dropdown-toggle" href="#" type="button">Hengitys</a>
+                                <ul class="dropdown-menu bg-custom">
+                                    <li><a class="dropdown-item bg-custom" href="hengitys-kurssit-sivu.html" type="button">Kurssit</a></li>
+                                    <li><a class="dropdown-item bg-custom" href="hengitys-toiminnallinenhengitys-sivu.html" type="button">Toiminnallinen hengitys</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Reiki</a>
+                                <ul class="dropdown-menu bg-custom">
+                                    <li><a class="dropdown-item bg-custom" href="reiki-hoidot-sivu.html" type="button">Reikihoidot</a></li>
+                                    <li><a class="dropdown-item bg-custom" href="reiki-koulutus-sivu.html" type="button">Reikikoulutus</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item bg-custom" href="jooga-sivu.html" type="button" >Jooga</a></li>                            
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                    <a class="nav-link" href="hinnasto-sivu.html">Hinnasto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="yhteystiedot-sivu.html">Yhteystiedot</a>
+                    </li>
+              </ul>
+            </div>
+        </nav>
+
+        <!--SIVUSTON YLÄREUNA-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="jumbotron text-center">
+                        <img src="liian iso.png" alt="Huokun-logo" height="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--SISÄLTÖ-->
+        <div class="container">
+            <div class="row"> 
+                <div class="col-sm-2"> 
+                                     
+                </div>                 
+                <div class="col-sm-8">
+                    <h5>Hinnasto</h5>
+                    <p>
+                        Muistathan seurata ilmoitteluamme tarjoushinnoista!
+
+                    </p>     
+                    <p>
+                        Voit ilmoittautua mukaan kursseillemme, yksityistunneille ja -hoitoihin sekä tapahtumiin ilmoittautumislomakkeen kautta, joka löytyy sivun alaosasta.
+                        Yksityistunneille ja -hoitoihin ilmoittautuessa, tiedustele vapaita aikoja, niin sovitaan yhdessä sopiva hetki.
+                        Ilmoittautumisen voi perua ilman kuluja 48h ennen tapahtumaa.
+
+                        Joogatuntien hinnat julkaistaan myöhemmin!
+                    </p>             
+                    
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        HUOKUN HENGITYSKURSSIT - etä- ja live 149€ 
+                        <ul>
+                            <li>Oxygen Advantage -hengitysteoria sekä -harjoitukset</li>
+                            <li>Kesto 4 viikkoa, 1,5h / kerta</li>
+                            <li>Kurssimateriaali sisältyy hintaan</li>
+                        </ul>
+                        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+
+                        HUOKUN HENGITYSPÄIVÄ - 149€ 
+                        <ul>
+                            <li>Oxygen Advantage -hengitysteoria sekä -harjoitukset</li>
+                            <li>Sis. ulkoilu, lounas, kahvit</li>
+                            <li>Kurssimateriaali sisältyy hintaan</li>
+                            <li>Kesto 6h</li>
+                        </ul>
+                        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+                        
+                        HENKILÖKOHTAINEN HENGITYSOHJAUS - 80€ / 220€ 
+                        <ul>
+                            <li>Oxygen Advantage -hengitysteorian mukainen henkilökohtainen ohjaus</li>
+                            <li>Juuri sinulle räätälöidyt harjoitukset</li>
+                            <li>Kesto 1,5h - 80€</li>
+                            <li>3 x kortti 220€</li>
+                            <li>Huokun hengityskurssin tai -päivän käyneille henkilökohtainen ohjaus -50%</li>
+                        </ul>
+                        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+                        
+                        REIKIHOITO - 80€ 
+                        <ul>
+                            <li>Henkilökohtainen reikihoito</li>
+                            <li>Kesto 1,5h</li>
+                        </ul>
+                        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+                        
+                        REIKIHOITO ETÄNÄ - 50€ 
+                        <ul>
+                            <li>Henkilökohtainen reikihoito etänä</li>
+                            <li>Kesto 1h</li>
+                        </ul>
+                        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+                        
+                        HUOKUN REIKIKURSSI - REIKI 1 - 250€ 
+                        <ul>
+                            <li>Yksilöllisesti suuniteltu kurssi</li>
+                            <li>Kesto n. 10h</li>
+                        </ul>
+                        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+                        
+                        HUOKUN REIKIKURSSI - REIKI 2 - 330€ 
+                        <ul>
+                            <li>Yksilöllisesti suuniteltu kurssi</li>
+                            <li>Kesto n. 10h</li>
+                        </ul>
+                        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+                        
+                        HUOKUN REIKIKURSSI - REIKI 3 - hinta sopimuksen mukaan
+                        <ul>
+                            <li>Yksilöllisesti suuniteltu kurssi</li>
+                            <li>Noin vuoden ajan kestävä koulutus</li>
+                        </ul>
+                        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+                        
+                        HUOKUN RETRIITTI - hinta sopimuksen mukaan
+                        <ul>
+                            <li>Kesto, tarjoilut sekä teema toiveen mukaan </li>
+                        </ul>
+
+                    </p>
+                    
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>        
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+
+        <!--YHTEYDENOTTOLOMAKE-->
+
+        <form class="text-center border border-light p-5" action="#!">
+
+            <p class="h4 mb-4">Ilmoittautumis- ja yhteydenottolomake</p>
+    
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <div class="corners">
+                            <div class="yhteydenotto">
+                                <p>Täytä pyydetyt tiedot, ja valitse ilmoittautumisen kohde.</p>
+                                <ul>
+                                    <li>
+                                        Hengityskurssille ilmoittautuessa, mainitse viestikentässä mille kurssille haluat ilmoittautua<br>
+                                        (kurssin nimi ja aloituspäivämäärä)
+                                    </li>
+                                    <li>
+                                        Joogaan ilmoittautuessa, mainitse viestikentässä mille joogatunnille ilmoittaudut (tunnin nimi ja päivämäärä)
+                                    </li>
+                                    <li>
+                                        Reikihoitoon ilmoittautuessa, mainitse viestikentässä lyhyesti hoidon tarpeesta, ja voit ehdottaa
+                                        itsellesi sopivia aikoja hoidolle
+                                    </li>
+                                    <li>
+                                        Retriittiin ilmoittautuessa, mainitse viestikentässä mihin retriittiin haluat ilmoittautua<br>
+                                        (retriitin nimi ja aloituspäivämäärä)
+                                    </li>
+                                    <li>
+                                        Yhteydenottopyyntöä laittaessa, mainitse viestikentässä lyhyesti, mitä asia koskee, ja <br>
+                                        mieluisin yhteydenottotapa (soitto, tekstiviesti, sähköposti). Lisääthän puhelinnumeron<br>
+                                        viestikenttään, mikäli valitsit soiton tai tekstiviestin
+                                    </li>
+                                </ul>
+                                    
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                        
+                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nimi">
+    
+                        
+                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+    
+
+                        <label>Aihe</label>
+                        <select class="browser-default custom-select mb-4">
+                            <option value="" disabled>Choose option</option>
+                            <option value="1" selected>Ilmoittautuminen hengityskurssille</option>
+                            <option value="2">Ilmoittautuminen joogatunnille</option>
+                            <option value="3">Ilmoittautuminen reikihoitoon</option>
+                            <option value="4">Imoittautuminen reikikurssille</option>
+                            <option value="4">Imoittautuminen retriittiin</option>
+                            <option value="5">Yhteydenottopyyntö</option>
+                        </select>
+    
+                        <div class="form-group">
+                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+                        </div>
+    
+                        <a class="btn btn-default" style="background-color: rgb(240, 207, 207);"onclick="validateForm();">Lähetä</a>
+    
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+        </form>
+
+        <!--SIVUSTON ALAOSA-->
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container text-center">
+            <p class="text-muted mb-0 py-2">© Huokun Oy <br> Y-Tunnus 3241193-9</p>
+            <a href="https://www.facebook.com/huokunstudio" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/huokunstudio/" class="fa fa-instagram"></a>
+        </div>"
+      
+        <script>
+            $(function () {
+                $(window).on('scroll', function () {
+                    if ( $(window).scrollTop() > 10 ) {
+                        $('.navbar').addClass('active');
+                    } else {
+                        $('.navbar').removeClass('active');
+                    }
+                });
+            });
+    
+        </script>
+</body>
+</html>

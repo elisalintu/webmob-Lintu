@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--Välilehden otsikko-->
+    <title>Huokun Oy</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+
+    <!--Bootstrapin linkitykset-->
+    <link rel="stylesheet" href="C:\Users\elisa\OneDrive\Työpöytä\Kouluhommat\Web-ja mobiili\Projekti osa 3 - toteutus\boot\css\bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="C:\Users\elisa\OneDrive\Työpöytä\Kouluhommat\Web-ja mobiili\Projekti osa 3 - toteutus\boot\js\bootstrap.bundle.min.js"></script>
+
+    <!--Oma tyyli-->
+    <link rel="stylesheet" href="tyyli.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+
+    <!--Navigointipalkki-->
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <a class="navbar-brand" href="#"><img src="paita.png" width="30" height="30" alt="logo"></a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav bg-custom-media "> 
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Projekti osa 3 - html.html" type="button">Etusivu <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="tietoameista-sivu.html" type="button">Tietoa meistä</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Palvelut </a>
+                        <ul class="dropdown-menu bg-custom" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-submenu bg-custom"><a class="dropdown-item dropdown-toggle" href="#" type="button">Hengitys</a>
+                                <ul class="dropdown-menu bg-custom">
+                                    <li><a class="dropdown-item bg-custom" href="hengitys-kurssit-sivu.html" type="button">Kurssit</a></li>
+                                    <li><a class="dropdown-item bg-custom" href="hengitys-toiminnallinenhengitys-sivu.html" type="button">Toiminnallinen hengitys</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Reiki</a>
+                                <ul class="dropdown-menu bg-custom">
+                                    <li><a class="dropdown-item bg-custom" href="reiki-hoidot-sivu.htmls" type="button">Reikihoidot</a></li>
+                                    <li><a class="dropdown-item bg-custom" href="reiki-koulutus-sivu.html" type="button">Reikikoulutus</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item bg-custom" href="jooga-sivu.html" type="button" >Jooga</a></li>   
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                    <a class="nav-link" href="hinnasto-sivu.html">Hinnasto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="yhteystiedot-sivu.html">Yhteystiedot</a>
+                    </li>
+              </ul>
+            </div>
+        </nav>
+
+        <!--SIVUSTON YLÄREUNA-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="jumbotron text-center">
+                        <img src="liian iso.png" alt="Huokun-logo" height="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--SISÄLTÖ-->
+        <div class="container">
+            <div class="row"> 
+                <div class="col-sm-2">
+                    <img id="kuvat" class="img-fluid" src="joogakuva.jpg" alt="Heli ja Elisa" >
+                </div>                 
+                <div class="col-sm-8">
+                    <h5>Joogatunnit</h5>
+                    <p>Joogastudiomme valmistuu kovaa vauhtia Kuopion Haapaniemelle. 
+                        Joogatunnit alkavat pyöriä maaliskuun 2022 aikana, 
+                        ja joogaopettajakoulutusta päästään pitämään toukokuusta alkaen.
+                        Huokun-joogatunnit pidetään aina pienellä porukalla. 
+                        Haluamme varmistaa yksilöllisen ohjauksen mahdollisuuden, 
+                        ja luoda turvallisen, hoitavan ympäristön kaikille. 
+                        Ryhmiin mahtuu 5 joogaajaa kerralla, joten varaathan paikkasi nopeasti!</p>
+                                
+                </div>
+                <div class="col-sm-2">
+                    
+                </div>  
+            </div>
+        </div>
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        AFTER WORK -JOOGA: Tämä on kehoa ja mieltä hellästi palauttava joogatunti. 
+                        Tänne tunnille on helppo tulla, olit sitten nuori tai vanha, 
+                        jäykkä tai notkea! Tunnin tarkoituksena on avata kehoa 
+                        pitkän päivän jälkeen, kerätä siihen energiaa takaisin, 
+                        ja lähteä jatkamaan päivää voimaantuneena.                           
+                    </p>
+                    
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        HUOKUN YIN-JOOGA: Tämä on klassinen, kehoa hellivä yin-joogatunti. 
+                        Tunnilla tehdään pitkiä pysähdyksiä kehoa voimaannuttavissa asanoissa, 
+                        jotta asanan voima ja vaikutus pääsee syvälle kehoon. 
+                        Tämän tunnin jälkeen tunnet olosi rentoutuneeksi ja levänneeksi. 
+                        Tule pysähtymään hetkeksi, ja poistamaan arjen kiireet kehostasi – ja mielestäsi. 
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        HUOKUN FIN-JOOGA: Tämä on täysin uudenlainen joogakonsepti, joka on kehitetty 
+                        Suomen luonnon taika yhdistettynä joogan palauttavaan voimaan. 
+                        Suomalainen, etenkin Lapin kulttuuri, on täynnä upeita, kehoa 
+                        ja mieltä palauttavia hoitomuotoja. Tämä joogatunti yhdistää 
+                        Lapin taianomaisen tunnelman yin-joogan kehoa ja mieltä 
+                        palauttaviin asanoihin. Tule kokemaan ainutlaatuinen jooga-kokemus! 
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+        
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+
+        <!--YHTEYDENOTTOLOMAKE-->
+
+        <form class="text-center border border-light p-5" action="#!">
+
+            <p class="h4 mb-4">Ilmoittautumis- ja yhteydenottolomake</p>
+    
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <div class="corners">
+                            <div class="yhteydenotto">
+                                <p>Täytä pyydetyt tiedot, ja valitse ilmoittautumisen kohde.</p>
+                                <ul>
+                                    <li>
+                                        Hengityskurssille ilmoittautuessa, mainitse viestikentässä mille kurssille haluat ilmoittautua<br>
+                                        (kurssin nimi ja aloituspäivämäärä)
+                                    </li>
+                                    <li>
+                                        Joogaan ilmoittautuessa, mainitse viestikentässä mille joogatunnille ilmoittaudut (tunnin nimi ja päivämäärä)
+                                    </li>
+                                    <li>
+                                        Reikihoitoon ilmoittautuessa, mainitse viestikentässä lyhyesti hoidon tarpeesta, ja voit ehdottaa
+                                        itsellesi sopivia aikoja hoidolle
+                                    </li>
+                                    <li>
+                                        Retriittiin ilmoittautuessa, mainitse viestikentässä mihin retriittiin haluat ilmoittautua<br>
+                                        (retriitin nimi ja aloituspäivämäärä)
+                                    </li>
+                                    <li>
+                                        Yhteydenottopyyntöä laittaessa, mainitse viestikentässä lyhyesti, mitä asia koskee, ja <br>
+                                        mieluisin yhteydenottotapa (soitto, tekstiviesti, sähköposti). Lisääthän puhelinnumeron<br>
+                                        viestikenttään, mikäli valitsit soiton tai tekstiviestin
+                                    </li>
+                                </ul>
+                                    
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                       
+                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nimi">
+    
+                      
+                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+    
+                       
+                        <label>Aihe</label>
+                        <select class="browser-default custom-select mb-4">
+                            <option value="" disabled>Choose option</option>
+                            <option value="1" selected>Ilmoittautuminen hengityskurssille</option>
+                            <option value="2">Ilmoittautuminen joogatunnille</option>
+                            <option value="3">Ilmoittautuminen reikihoitoon</option>
+                            <option value="4">Imoittautuminen reikikurssille</option>
+                            <option value="4">Imoittautuminen retriittiin</option>
+                            <option value="5">Yhteydenottopyyntö</option>
+                        </select>
+    
+                        <div class="form-group">
+                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+                        </div>
+    
+                      
+                        <a class="btn btn-default" style="background-color: rgb(240, 207, 207);"onclick="validateForm();">Lähetä</a>
+    
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+        </form>
+
+        <!--SIVUSTON ALAOSA-->
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container text-center">
+            <p class="text-muted mb-0 py-2">© Huokun Oy <br> Y-Tunnus 3241193-9</p>
+            <a href="https://www.facebook.com/huokunstudio" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/huokunstudio/" class="fa fa-instagram"></a>
+        </div>"
+      
+        <script>
+            $(function () {
+                $(window).on('scroll', function () {
+                    if ( $(window).scrollTop() > 10 ) {
+                        $('.navbar').addClass('active');
+                    } else {
+                        $('.navbar').removeClass('active');
+                    }
+                });
+            });
+    
+        </script>
+</body>
+</html>

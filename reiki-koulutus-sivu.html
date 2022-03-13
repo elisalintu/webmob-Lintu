@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--Välilehden otsikko-->
+    <title>Huokun Oy</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+
+    <!--Bootstrapin linkitykset-->
+    <link rel="stylesheet" href="C:\Users\elisa\OneDrive\Työpöytä\Kouluhommat\Web-ja mobiili\Projekti osa 3 - toteutus\boot\css\bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="C:\Users\elisa\OneDrive\Työpöytä\Kouluhommat\Web-ja mobiili\Projekti osa 3 - toteutus\boot\js\bootstrap.bundle.min.js"></script>
+
+    <!--Oma tyyli-->
+    <link rel="stylesheet" href="tyyli.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+
+    <!--Navigointipalkki-->
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <a class="navbar-brand" href="#"><img src="paita.png" width="30" height="30" alt="logo"></a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav bg-custom-media "> 
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Projekti osa 3 - html.html" type="button">Etusivu <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="tietoameista-sivu.html" type="button">Tietoa meistä</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Palvelut </a>
+                        <ul class="dropdown-menu bg-custom" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-submenu bg-custom"><a class="dropdown-item dropdown-toggle" href="#" type="button">Hengitys</a>
+                                <ul class="dropdown-menu bg-custom">
+                                    <li><a class="dropdown-item bg-custom" href="hengitys-kurssit-sivu.html" type="button">Kurssit</a></li>
+                                    <li><a class="dropdown-item bg-custom" href="hengitys-toiminnallinenhengitys-sivu.html" type="button">Toiminnallinen hengitys</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Reiki</a>
+                                <ul class="dropdown-menu bg-custom">
+                                    <li><a class="dropdown-item bg-custom" href="reiki-hoidot-sivu.htmls" type="button">Reikihoidot</a></li>
+                                    <li><a class="dropdown-item bg-custom" href="reiki-koulutus-sivu.html" type="button">Reikikoulutus</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item bg-custom" href="jooga-sivu.html" type="button" >Jooga</a></li>                           
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                    <a class="nav-link" href="hinnasto-sivu.html">Hinnasto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="yhteystiedot-sivu.html">Yhteystiedot</a>
+                    </li>
+              </ul>
+            </div>
+        </nav>
+
+        <!--SIVUSTON YLÄREUNA-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="jumbotron text-center">
+                        <img src="liian iso.png" alt="Huokun-logo" height="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SISÄLTÖ-->
+    
+        <div class="container">
+            <div class="row"> 
+                <div class="col-sm-2">
+                    <img id="kuvat" class="img-fluid" src="kuva.jpg" alt="Heli ja Elisa" > 
+                </div>                 
+                <div class="col-sm-8">
+                    <h5>Reikikoulutus</h5>
+                    <p>Kun reiki alkaa kutsua, siitä alkaa ikitie. 
+                        Reiki avautuu jokaiselle omalla, persoonallisella tavalla. 
+                        Toisen polku on kertakaikkisesti nopeasti eteenpäin vievä, 
+                        selkeä moottoritie, kun taas toinen haluaa tunnelmoida pienillä 
+                        metsäpoluilla. Kolmas voi käyttää vaikka näistä molempia. 
+                        Ja neljännen versio on ihan omanlainen. 
+                        Määränpää on meillä kaikilla sama. <br><br>
+                        Se, miten Sitä kohti mennään, on merkittävää. <br><br>
+                        Matkaseura on valittava huolella. <br><br>
+                        Kenen kanssa sinä haluat kulkea? 
+                        </p>
+                    <p>Minä en ole koskaan ymmärtänyt, mitä tarkoitetaan uskoon tulemisella. 
+                        Usko on aina ollut minussa. Opetusta olen saanut erilaisilta ihmisiltä 
+                        niin koulussa kuin elävässä elämässä. Ja tietoisesti halusin lähteä 
+                        opiskelemaan teologiaa. Koko työurani olen opettanut uskontoa. 
+                        Monille olen ollut kävelevä uskonto- onko tuo positiivinen vai 
+                        negatiivinen stigma? Kohtaamisia on ollut monenlaisia, 
+                        niin kuin meillä kaikilla.  </p>
+                    <p>Minulle reiki on kaikkien uskontojen uskonto eli niiden yläpuolella. 
+                        Uskonnot lähtevät reikistä. Reiki on universaalia energiaa, 
+                        jonka tehtävä on johdattaa meidät Alkulähteelle. 
+                        Polkuja on yli seitsemän miljardia tällä hetkellä! Jokaisella omansa. </p>
+                    <p>Mitä on olla uskovainen tai hengellinen? Mitä on kuulua johonkin uskontoon? 
+                        Uskontojen tehtävä on tukea hengellistä kasvua. 
+                        Mihin maailman kolkkaan satuit syntymään, on vaikuttanut 
+                        paljon siihen millaisen kasvatuksen olet aiheesta saanut. 
+                        Oletko traumatisoitunut liian jyrkkien sääntöjen vuoksi vai oletko 
+                        kokenut turvaa elämää ohjaavien sääntöjen mukaan eläen. </p>
+                    <p>Huokun reikikurssien kautta voit tehdä matkaa minun kanssani. 
+                        Kuljen rinnallasi, etsin kanssasi jännittäviä asioita, elämme 
+                        yhdessä hienoja hetkiä matkalla kaikkein tärkeimpään paikkaan- 
+                        kohti sinun omaa sydäntäsi. Tienviittoja meille antaa japanilaisen 
+                        Mikao Usuin luoma reiki. Tämä polku korostaa oman sydämen 
+                        äänen löytämistä ja kuuntelemista. Rehellisyys itseä 
+                        kohtaan nousee yhdeksi tärkeimmäksi asiaksi.</p>
+                    <p>Ilmoittautumis- ja yhteydenottolomake löytyy hoitokuvailujen jälkeen.</p>             
+                </div>
+                <div class="col-sm-2">
+                    
+                </div>  
+            </div>
+        </div>
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        HUOKUN REIKIKURSSI - REIKI 1: 
+                        Reikin ensimmäinen kurssi (Reiki I) 
+                        on reikin peruskurssi. Siinä opitaan reikin historia ja reiki 
+                        menetelmistä itsensä hoitaminen ja opitaan myös hoitamaan läheisiä 
+                        (ihmisiä, eläimiä, kasveja). Reikissä on periaatteita, jotka opetellaan 
+                        ja pohditaan miten ne näkyvät ja voisivat näkyä omassa elämässä. 
+                        Aura- ja chakrajärjestelmää opiskellaan myös. Kurssilla tehdään 
+                        myös erilaisia meditaatioita. Kurssi päättyy reikiviritykseen.
+                    </p>
+                    
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        HUOKUN REIKIKURSSI - REIKI 2: 
+                        Reikin toinen taso (Reiki II) 
+                        opettaa tekemään symboleja apuna 
+                        käyttäen hoitoja myös kaukona. Opetellaan erilaisia tilanteita, 
+                        missä symboleita voi käyttää. Tietoja chakroista syvennetään. 
+                        Yhdessä tehdään myös meditaatioita. Kurssi päättyy reikiviritykseen.
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        HUOKUN REIKIKURSSI - REIKI 3: 
+                        Reikin kolmas taso (Reiki Master) 
+                        on syvälle menevä, rauhassa etenevä (tai asiakkaan omaan tahtiin etenevä) 
+                        kärsivällisyyttä ja aikaa vaativa prosessi. Viimeistään tämän kurssin 
+                        aikana reikistä tulee luonnollinen osa elämää, jos se ei sitä jo ollut. 
+                        Reiki virtaa sinusta- olet kuin kuningas Midas, mutta et kultaa 
+                        ketään, vaan tuot hyvää energiaa kaikkialle! Osaat tehdä 
+                        reikiviritykset ja tiedät miten käyttää Dai Komio mestarisymbolia. 
+                        Kurssin jälkeen voit ryhtyä opettamaan reikiä!
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        Reikitasot on opiskeltava järjestyksessä. 
+                        Halutessaan voi kerrata jo käydyn tason. Jos reiki kutsuu sinua, 
+                        ole yhteydessä ilmoittautumislomakkeen kautta, niin suunnitellaan sinulle sopiva aikataulu. 
+                        Reiki 1 ja 2 voi suorittaa yksityisesti viikonloppuisin (la-su) tai 
+                        peräkkäisinä arki-iltoina. Reiki 3 kurssi aikatauluineen ja 
+                        hintoineen suunnitellaan yhdessä asiakkaan kanssa. 
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+        
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+
+        <!--YHTEYDENOTTOLMAKE-->
+
+        <form class="text-center border border-light p-5" action="#!">
+
+            <p class="h4 mb-4">Ilmoittautumis- ja yhteydenottolomake</p>
+    
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <div class="corners">
+                            <div class="yhteydenotto">
+                                <p>Täytä pyydetyt tiedot, ja valitse ilmoittautumisen kohde.</p>
+                                <ul>
+                                    <li>
+                                        Hengityskurssille ilmoittautuessa, mainitse viestikentässä mille kurssille haluat ilmoittautua<br>
+                                        (kurssin nimi ja aloituspäivämäärä)
+                                    </li>
+                                    <li>
+                                        Joogaan ilmoittautuessa, mainitse viestikentässä mille joogatunnille ilmoittaudut (tunnin nimi ja päivämäärä)
+                                    </li>
+                                    <li>
+                                        Reikihoitoon ilmoittautuessa, mainitse viestikentässä lyhyesti hoidon tarpeesta, ja voit ehdottaa
+                                        itsellesi sopivia aikoja hoidolle
+                                    </li>
+                                    <li>
+                                        Retriittiin ilmoittautuessa, mainitse viestikentässä mihin retriittiin haluat ilmoittautua<br>
+                                        (retriitin nimi ja aloituspäivämäärä)
+                                    </li>
+                                    <li>
+                                        Yhteydenottopyyntöä laittaessa, mainitse viestikentässä lyhyesti, mitä asia koskee, ja <br>
+                                        mieluisin yhteydenottotapa (soitto, tekstiviesti, sähköposti). Lisääthän puhelinnumeron<br>
+                                        viestikenttään, mikäli valitsit soiton tai tekstiviestin
+                                    </li>
+                                </ul>
+                                    
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                        
+                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nimi">
+    
+                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+    
+                        
+                        <label>Aihe</label>
+                        <select class="browser-default custom-select mb-4">
+                            <option value="" disabled>Choose option</option>
+                            <option value="1" selected>Ilmoittautuminen hengityskurssille</option>
+                            <option value="2">Ilmoittautuminen joogatunnille</option>
+                            <option value="3">Ilmoittautuminen reikihoitoon</option>
+                            <option value="4">Imoittautuminen reikikurssille</option>
+                            <option value="4">Imoittautuminen retriittiin</option>
+                            <option value="5">Yhteydenottopyyntö</option>
+                        </select>
+    
+                   
+                        <div class="form-group">
+                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+                        </div>
+    
+                        <a class="btn btn-default" style="background-color: rgb(240, 207, 207);"onclick="validateForm();">Lähetä</a>
+    
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+        </form>
+
+        <!--SIVUSTON ALAREUNA-->
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+        <div class="container text-center">
+            <p class="text-muted mb-0 py-2">© Huokun Oy <br> Y-Tunnus 3241193-9</p>
+            <a href="https://www.facebook.com/huokunstudio" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/huokunstudio/" class="fa fa-instagram"></a>
+        </div>"
+      
+        <script>
+            $(function () {
+                $(window).on('scroll', function () {
+                    if ( $(window).scrollTop() > 10 ) {
+                        $('.navbar').addClass('active');
+                    } else {
+                        $('.navbar').removeClass('active');
+                    }
+                });
+            });
+    
+        </script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--Välilehden otsikko-->
+    <title>Huokun Oy</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+
+    <!--Bootstrapin linkitykset-->
+    <link rel="stylesheet" href="C:\Users\elisa\OneDrive\Työpöytä\Kouluhommat\Web-ja mobiili\Projekti osa 3 - toteutus\boot\css\bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="C:\Users\elisa\OneDrive\Työpöytä\Kouluhommat\Web-ja mobiili\Projekti osa 3 - toteutus\boot\js\bootstrap.bundle.min.js"></script>
+
+    <!--Oma tyyli-->
+    <link rel="stylesheet" href="tyyli.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+
+    <!--Navigointipalkki-->
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <a class="navbar-brand" href="#"><img src="paita.png" width="30" height="30" alt="logo"></a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav bg-custom-media "> 
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Projekti osa 3 - html.html" type="button">Etusivu <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="tietoameista-sivu.html" type="button">Tietoa meistä</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Palvelut </a>
+                        <ul class="dropdown-menu bg-custom" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-submenu bg-custom"><a class="dropdown-item dropdown-toggle" href="#" type="button">Hengitys</a>
+                                <ul class="dropdown-menu bg-custom">
+                                    <li><a class="dropdown-item bg-custom" href="hengitys-kurssit-sivu.html" type="button">Kurssit</a></li>
+                                    <li><a class="dropdown-item bg-custom" href="hengitys-toiminnallinenhengitys-sivu.html" type="button">Toiminnallinen hengitys</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Reiki</a>
+                                <ul class="dropdown-menu bg-custom">
+                                    <li><a class="dropdown-item bg-custom" href="reiki-hoidot-sivu.html" type="button">Reikihoidot</a></li>
+                                    <li><a class="dropdown-item bg-custom" href="reiki-koulutus-sivu.html" type="button">Reikikoulutus</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item bg-custom" href="jooga-sivu.html" type="button" >Jooga</a></li>                          
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                    <a class="nav-link" href="hinnasto-sivu.html">Hinnasto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="yhteystiedot-sivu.html">Yhteystiedot</a>
+                    </li>
+              </ul>
+            </div>
+        </nav>
+
+        <!--SIVUSTON YLÄREUNA-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="jumbotron text-center">
+                        <img src="liian iso.png" alt="Huokun-logo" height="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SISÄLTÖ-->
+        <div class="container text-center">
+            <p>Toiminnallinen hengitys</p>
+        </div>
+    
+        <div class="container">
+            <div class="row"> 
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        Me kaikki hengitämme noin 22000 kertaa vuorokaudessa. 
+                        Luulisi sen sujuvan! Ja sujuukin, ainakin omasta mielestä. 
+                        Meille on opetettu, että hyvinvointimme perustana on kolmio, 
+                        jonka kärjissä ovat ravinto, liikunta ja lepo.
+                    </p>
+                    <h6>Miltä kuulostaisi, jos siihen kolmioon laitettaisiin ravinnon 
+                        tilalle hengitys ja liikunnan tilalle tunteet? Toimiiko silläkin ajatuksella?</h6>
+                    <p>
+                        Minun mielestäni toimii. Ja jos oikein kovasti ja tarkasti ajatellaan, 
+                        niin hengitys on kaikissa noissa mainituissa asioissa mukana. 
+                        Se ei välttämättä säätele niitä mutta muuttuu niiden mukana. Esimerkiksi, 
+                        jos syöt liikaa, sinun on vaikea hengittää. Tai saat odottamasi herkun 
+                        suuhusi, hengityksesi rentoutuu kroppasi hyvän olon mukana, eikö? Kaikki 
+                        ymmärtävät, miten hengitys on liikunnassa koko ajan mukana. Ja 
+                        tunteet sekä hengitys kulkevat käsi kädessä.
+
+                    </p>
+                    <br>
+                    
+                    <img id="kuvat" class="img-fluid" src="hengitys-kuva2.png" alt="Heli ja Elisa" > 
+                    <p>
+                        <br>
+                        Entä unen aikana? Jos sinulla on kehosi toimintoja mittaava 
+                        älykello tai sormus, niin tiedät sen, miten hengitys muuttuu 
+                        unen aikana. Ja miten esimerkiksi alkoholi vaikuttaa uneen 
+                        heikentäen sitä. Kun hengitys sujuu rauhallisesti nenän 
+                        kautta yöllä, ne rauhoittuvat palautumista varten. 
+                        Jos taas kärsii stressistä, leposyke ei rauhoitu yölläkään, 
+                        eikä palaudu niin kuin pitäisi.
+                    </p>
+                    <h6>Eli kaiken takana on hengitys- eikä sittenkään nainen, niin kuin Matti ja Teppo laulavat.</h6>
+                    <p>
+                        Siksi on erinomaisen tärkeätä kiinnittää huomiota hengitykseen. 
+                        Tiedostaa hengitys. Tutkia ja pohtia, voinko jotenkin parantaa sitä. 
+                        Miksi? Siksi, koska se vaikuttaa suoraan hyvinvointiin, henkiseen ja fyysiseen.
+                    </p>
+
+                    <p>
+                        Miksi siis minä, viidenkympin ylittänyt mummo Savosta, 
+                        puhun tästä? Huippu-urheilijoita olen minäkin nähnyt, 
+                        televisioista. Omia lapsiani olen aina kannustanut liikkumaan ja 
+                        olen ollut myös mieheni tukena, kun hän on liikuttanut poikiaan. 
+                        Sydämeni riemuitsee lastenlasteni liikuntaharrastuksista. He lähtevät 
+                        mielellään ‘erämeininkiä’ harrastamaan mummon ja vara-vaarin kanssa. 
+                        Kaikille olen yrittänyt olla esimerkkinä positiivisilla liikekannalle panoilla.
+                    </p>
+                
+            
+                    <p>
+                        Mutta pelkkä liikunta ei riitä. Pitää osata myös tiedostaa hengityksensä, 
+                        ja tuoda se toiminnalliselle tasolle. Silloin voidaan saavuttaa 
+                        kokonaisvaltainen hyvä olo. Levon ja rauhan tila. Silloin minun on 
+                        hyvä olla minussa.
+                    </p>
+                    <p>
+                        Tämä hengitystekniikka voi auttaa kaiken ikäisiä ja kuntoisia ihmisiä. 
+                        Toiminnallisen hengityksen saavuttamiseen ei tarvita lääkkeitä, 
+                        ei mitään laitteita eikä kallista kurssia maailman toisella laidalla. 
+                        Se auttoi minua löytämään levon ja rauhan tilan, ja kohottamaan 
+                        hapenottokykyäni. Minun on nyt hyvä olla. Se voi auttaa sinuakin. 
+                        Siksi haluan jakaa tietoa siitä.
+                    </p>
+                </div> 
+                <div class="col-sm-2"></div>
+        </div>
+        <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <img id="kuvat" class="img-fluid" src="Oxygen-Advantage-4.png"  alt="oa-logo" >
+                    
+                    <p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        Oxygen Advantage, eli OA, on irlantilaisen Patrick McKeown (s.1975) 
+                        perustama, nykyisin maailmanlaajuinen hengitysohjelma.Patrick on 
+                        itse kouluttanut ohjaajia useissa Euroopan maissa, Amerikassa ja 
+                        Australiassa. Mestariohjaajat voivat puolestaan kouluttaa lisää ohjaajia 
+                        omissa maissaan. Meille ohjaajille annetaan lisäkoulutusta koko ajan. 
+                        Tarjolla on eri aiheisia webinaareja Patrickin, tai mestari ohjaajien 
+                        kanssa - jokainen ohjaajista tutustuu lisäkoulutuksiin oman mielenkiintonsa mukaan.
+                    </p>
+                    
+                    <p>
+                        
+                        Patrick kärsi lapsuudessaan ja nuoruudessaan astmasta. Oireita ei saatu 
+                        kunnolla kuriin erilaisilla lääkityksillä, ja sairaus vaikeutti hänen 
+                        elämäänsä huomattavasti. Nuorena aikuisena, yliopistossa opiskellessaan, 
+                        hän kuuli Konstantin Buteyko -nimisestä lääkäristä, joka oli kehittänyt 
+                        hengitystekniikan astmaatikkojen avuksi. Patrick päätti lähteä, 
+                        v.2002 Venäjälle, tutkimaan mistä on kyse. Buteykon klinikalla 
+                        Moskovassa Patrick oppi hengittämään nenän kautta! Metodi oli 
+                        yksinkertainen: hengitetään vähemmän, rauhallisesti ja syvälle 
+                        keuhkojen pohjaan saakka. Niin saadaan hiilidioksidia vereen 
+                        irrottamaan happimolekyylejä. Ja olo kohenee silmissä! 
+                        Patrick oli myyty. 
+
+                    </p>
+                    <h6>Miksi näin yksinkertaista ja helppoa menetelmää ei opeteta joka paikassa, 
+                        kaikkialla maailmassa? Hän päätti ottaa elämäntehtäväkseen tiedon eteenpäin viemisen.
+                    </h6>
+                    <p>
+                        Konstantin Buteyko oli tehnyt alustavat tutkimuksensa jo 1960 luvulla 
+                        liikahengittämisen aiheuttamista ongelmista. Virallisen tunnustuksen hän 
+                        sai merkittävälle työlleen vasta parikymmentä vuotta myöhemmin Neuvostoliitossa. 
+                        Muutamia klinikoita oli jo perustettu esim. Australiaan ja Uuteen-Seelantiin 
+                        Venäjän lisäksi. Patrick toi metodin Eurooppaan useisiin maihin kouluttamalla 
+                        ohjaajia. Hän oli itse Moskovassa ollessaan kouluttautunut buteyko-ohjaajaksi. 
+                        Hän oli myös kerennyt tapaamaan itse Buteykon ennen tämän menehtymistä 2003. 
+                    </p>
+                    <p>
+                        Ohjelman nimi muuttui, koska itse Buteyko oli jo edesmennyt ja Patrick teki 
+                        koko ajan yhteistyötä hengitysasioita tutkivien ihmisten (esim. tohtori Mercola) 
+                        kanssa. Uusia harjoituksia on keksitty, ja niiden hyödyt on haluttu tuoda 
+                        kaikkien saataville Oxygen Advantage -ohjelman myötä. Ohjelma on 
+                        tarkoitettu kenelle tahansa, joka kokee, että hänen hengityksessään 
+                        on jotain parannettavaa. 
+                    </p>
+                    <h6>Tuhannet astmaatikot ja paniikkikohtauksista kärsivät ovat saaneet 
+                        harjoitusten kautta apua, ja voineet jättää jopa lääkkeet pois. 
+                    </h6>
+                    <p>
+                        Se pitää muistaa, että ohjelmassa ei koskaan ohjata lopettamaan 
+                        lääkärin määräämien lääkkeiden käyttöä, sillä niistä asioista on 
+                        aina neuvoteltava lääkärin kanssa. Yöunien muuttuessa rauhallisiksi, 
+                        hyvinvointi kohenee. Tuhannet ihmiset ovat saaneet kuorsauksensa 
+                        ja uniapnea-oireensa loppumaan OA-ohjeita noudattamalla. Mikä 
+                        ilo myös vieressä nukkuvalle! OA-ohjelmaan kuuluvat korkeanpaikan 
+                        harjoitukset on tarkoitettu kunnostaan huoltapitäville, jotka 
+                        haluavat parhaan mahdollisen hyödyn liikunnasta. Nenähengitys on 
+                        ihmeellinen myös liikunnan yhteydessä! Lihakset ja aivot saavat 
+                        happea parhaalla mahdollisella tavalla, maitohappoja ei muodostu 
+                        niin paljoa, eli loukkaantumisriski pienenee ja palautuminen 
+                        suorituksen jälkeen on selkeästi nopeampaa. Kovimpien korkeanpaikan 
+                        harjoitusten avulla saadaan maksimaalista hapenottokykyä 
+                        ylläpidettyä loukkaantumisen aikana. Kuka vain, jolla on 
+                        tarpeeksi korkea perushengitystaso, saa hyötyä näistä harjoituksista.
+                    </p>
+                    <p>
+                        Oxygen Advantagella on omat englanninkieliset sivustonsa. 
+                        Sieltä löytyy paljon lisätietoa ja erilaisia mahdollisuuksia myös 
+                        kouluttautua ja opiskella nettikursseilla. Meillä Suomessa 
+                        toimivilla ohjaajilla on oma facebook-sivusto, josta löytyy 
+                        tietoa eri puolilla Suomea olevista ohjaajista.
+                    </p>
+                    <p>
+                        Huokun tarjoaa suomenkielellä henkilökohtaista hengitysohjausta, 
+                        hengityspäiviä ryhmille sekä hengityskursseja etänä.
+                    </p>
+                    <p>
+                        Tervetuloa oppimaan helppoja harjoituksia, joilla saat nopeasti kohotettua hyvinvointiasi!
+                    </p>
+                </div> 
+                <div class="col-sm-2"></div>
+        </div>
+
+                    
+   
+   
+        <!--SIVUSTON ALAREUNA-->
+    <hr style="width:100%;margin-left:0; color: rgb(235, 197, 197);">
+
+    <div class="container text-center">
+        <p class="text-muted mb-0 py-2">© Huokun Oy <br> Y-Tunnus 3241193-9</p>
+        <a href="https://www.facebook.com/huokunstudio" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/huokunstudio/" class="fa fa-instagram"></a>
+    </div>
+      
+    <script>
+        $(function () {
+            $(window).on('scroll', function () {
+                if ( $(window).scrollTop() > 10 ) {
+                      $('.navbar').addClass('active');
+                } else {
+                    $('.navbar').removeClass('active');
+                }
+            });
+        });
+    
+    </script>
+
+</body>
+</html>
